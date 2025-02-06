@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 🕶️ LunAR - Essayage Virtuel de Lunettes en Réalité Augmentée  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Introduction  
+LunAR est une application web permettant d'essayer des lunettes en **réalité augmentée** directement depuis son navigateur.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Fonctionnalités Clés  
 
-### `npm start`
+###  1. Essayage Virtuel en Réalité Augmentée  
+- **Utilisation de la webcam** pour superposer un modèle 3D de lunettes sur le visage.  
+- **Suivi dynamique** des mouvements de la tête.  
+- **Mise à l’échelle et rotation automatique** selon la distance des yeux et l’orientation du nez.  
+- **Changement instantané de modèle** via un menu déroulant.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###  2. Recommandation Intelligente avec Chatbot IA  
+- **Analyse des préférences de l’utilisateur** (forme du visage, style, usage).  
+- **Suggestions de montures adaptées** en fonction des réponses fournies.  
+- **Assistance technique** en cas de problème d’activation de la webcam.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###  3. Sélection Dynamique de Lunettes  
+- **Menu interactif** pour changer de monture en un clic.  
+- **Chargement optimisé des modèles** pour une expérience fluide.  
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Utilisées  
+LunAR est développé avec les technologies suivantes :  
 
-### `npm run build`
+- **Frontend** :  
+  - React.js  
+  - Three.js (moteur de rendu 3D)  
+  - Mediapipe FaceMesh (détection des points clés du visage)  
+  - Sass (styling avancé)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Backend & IA** :  
+  - OpenAI API (Chatbot basé sur GPT)  
+  - Axios (gestion des requêtes API)  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Installation et Exécution  
 
-### `npm run eject`
+### 🖥️ Prérequis  
+- **Node.js** >= 14  
+- **npm** ou **yarn**  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📦 Installation  
+1. **Cloner le projet**  
+   ```bash
+   git clone https://github.com/username/lunar-app.git
+   cd lunar-app
+   
+2. **Installer les dépendances**  
+   ```bash
+   npm install
+   
+2. **Exécution**  
+   ```bash
+   npm start
