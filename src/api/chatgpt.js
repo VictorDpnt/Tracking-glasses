@@ -42,7 +42,7 @@ export const sendMessageToChatGPT = async (messageHistory = []) => {
       },
       {
         headers: {
-          Authorization: `Bearer ${API_KEY}$`,
+          Authorization: `Bearer ${API_KEY}`,
           "Content-Type": "application/json",
         },
       }
