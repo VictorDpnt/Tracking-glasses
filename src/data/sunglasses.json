@@ -1,0 +1,23 @@
+[
+    {
+      "id": "A",
+      "name": "Lunettes A",
+      "shape": ["Carré", "Allongé"],
+      "sex": ["Homme"],
+      "model": "/models/sans_nom1.glb"
+    },
+    {
+      "id": "B",
+      "name": "Lunettes B",
+      "shape": ["Rond"],
+      "sex": ["Homme", "Femme"],
+      "model": "/models/sans_nom2.glb"
+    },
+    {
+      "id": "C",
+      "name": "Lunettes C",
+      "shape": ["Allongé"],
+      "sex": ["Femme"],
+      "model": "/models/sans_nom3.glb"
+    }
+  ]

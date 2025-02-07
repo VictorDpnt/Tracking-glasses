@@ -1,0 +1,40 @@
+.
+├── README.md
+├── arbo.txt
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   ├── models
+│   │   ├── base_glasses.glb
+│   │   ├── sans_nom1.glb
+│   │   ├── sans_nom2.glb
+│   │   └── sans_nom5.glb
+│   └── robots.txt
+├── src
+│   ├── App.js
+│   ├── api
+│   │   └── chatgpt.js
+│   ├── components
+│   │   ├── Chatbot.js
+│   │   ├── GlassesTryOn.js
+│   │   ├── GlassesView.js
+│   │   ├── NavBar.js
+│   │   ├── Webcam.js
+│   │   └── main.js
+│   ├── index.js
+│   ├── pages
+│   │   └── Home.js
+│   └── style
+│       ├── _settings.scss
+│       ├── components
+│       │   └── _chatbot.scss
+│       └── index.scss
+└── tailwind.config.js
+
+9 directories, 29 files
